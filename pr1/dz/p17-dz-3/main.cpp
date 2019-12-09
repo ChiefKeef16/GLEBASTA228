@@ -3,21 +3,21 @@
 using namespace std;
 int main()
 {
-    int x,y,r;
+    int x,y,r,R,G,B;
     int i=0;
-    char c;
+    string c;
     txCreateWindow (800, 600);
-    for (i=1; i<=5; i++)
+    for (i=1; i<=4; i++)
     {
-    cout <<"cin coordinates x,y and "  <<"cin color of car(TX_BLUE,TX_RED...)";
-    cin >> x >> y >> c;
+    cout <<"cin coordinates x,y and "  <<"cin color of car(R G B...)";
+    cin >> x >> y >> R >>G >> B;
     r=15;
     POINT CarBody [8] = {{x, y}, {x, y-25},
         {x+10, y-25}, {x+40, y-45},
         {x+80, y-45},{x+100, y-25},
         {x+140, y-15},{x+140, y}
     };
-    txSetFillColor ( c );
+    txSetFillColor ( RGB(R,G,B) );
     txPolygon (CarBody, 8);
 
     POINT CarWindow [4]= {{x+50, y-40}, {x+50, y-40},

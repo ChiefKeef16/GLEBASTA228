@@ -66,4 +66,6 @@ int main()
         cout<< "devyatnadcatb";
     else if (a==100)
         cout<<"sto" <<endl;
+    else if (a==0)
+        cout<<"nolb" <<endl;
 }
