@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1582724745 source:c:\users\public\documents\10 êëàññ ÍÅ ÓÄÀËßÒÜ ÏÎÆÀËÓÉÑÒÀ\Ãëåá\glebasta228\game\game\main.cpp
+	<iostream>
+	"TXLib.h"
+	<sstream>
+
+1578906417 c:\users\public\documents\10 êëàññ ÍÅ ÓÄÀËßÒÜ ÏÎÆÀËÓÉÑÒÀ\Ãëåá\glebasta228\game\game\txlib.h
+	<assert.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stdio.h>
+	<string.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<process.h>
+	<signal.h>
+	<locale.h>
+	<time.h>
+	<float.h>
+	<math.h>
+	<map>
+	<vector>
+	<string>
+	<iostream>
+	<algorithm>
+	<exception>
+	<stdexcept>
+	<conio.h>
+	<windows.h>
+	<tlhelp32.h>
+	<shellapi.h>
+	<shlobj.h>
+	<crtdbg.h>
+
